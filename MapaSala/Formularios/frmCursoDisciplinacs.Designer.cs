@@ -33,11 +33,11 @@ namespace MapaSala.Formularios
             this.label2 = new System.Windows.Forms.Label();
             this.CbxCursos = new System.Windows.Forms.ComboBox();
             this.btnadd = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dtCursoDisciplina = new System.Windows.Forms.DataGridView();
             this.CbxDisciplinas = new System.Windows.Forms.ComboBox();
             this.CbxPeriodos = new System.Windows.Forms.ComboBox();
             this.TxtPeriodo = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtCursoDisciplina)).BeginInit();
             this.SuspendLayout();
             // 
             // Disciplinas
@@ -77,14 +77,14 @@ namespace MapaSala.Formularios
             this.btnadd.UseVisualStyleBackColor = true;
             this.btnadd.Click += new System.EventHandler(this.btnadd_Click);
             // 
-            // dataGridView1
+            // dtCursoDisciplina
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 115);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(739, 255);
-            this.dataGridView1.TabIndex = 6;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dtCursoDisciplina.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtCursoDisciplina.Location = new System.Drawing.Point(12, 115);
+            this.dtCursoDisciplina.Name = "dtCursoDisciplina";
+            this.dtCursoDisciplina.Size = new System.Drawing.Size(739, 255);
+            this.dtCursoDisciplina.TabIndex = 6;
+            this.dtCursoDisciplina.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // CbxDisciplinas
             // 
@@ -127,7 +127,7 @@ namespace MapaSala.Formularios
             this.Controls.Add(this.TxtPeriodo);
             this.Controls.Add(this.CbxPeriodos);
             this.Controls.Add(this.CbxDisciplinas);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dtCursoDisciplina);
             this.Controls.Add(this.btnadd);
             this.Controls.Add(this.CbxCursos);
             this.Controls.Add(this.label2);
@@ -135,7 +135,7 @@ namespace MapaSala.Formularios
             this.Name = "frmCursoDisciplinacs";
             this.Text = "frmCursoDisciplinacs";
             this.Load += new System.EventHandler(this.frmCursoDisciplinacs_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dtCursoDisciplina)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,7 +146,7 @@ namespace MapaSala.Formularios
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox CbxCursos;
         private System.Windows.Forms.Button btnadd;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dtCursoDisciplina;
         private System.Windows.Forms.ComboBox CbxDisciplinas;
         private System.Windows.Forms.ComboBox CbxPeriodos;
         private System.Windows.Forms.Label TxtPeriodo;
